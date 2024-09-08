@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+    display: flex;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #88d8d8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fdf1e7;
+    margin: none;
+}
+
+svg {
+    background-color: #88d8d8;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+#canvas {
+    min-height: 700px;
+    min-width: 1050px;
+}
+
+.county:hover {
+    fill: black;
+}
+
+g {
+    color: #fdf1e7;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #fdf1e7;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend {
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    max-width: 180px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#title {
+    font-size: 28px;
+    color: #fdf1e7;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#description {
+    text-decoration: none;
+    color: #fdf1e7;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
